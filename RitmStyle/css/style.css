@@ -1,0 +1,583 @@
+body {
+  margin: 0;
+  background-color: #162831;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 20px;
+  display: flex;
+}
+
+.logo {
+  margin-right: 194px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 186px;
+}
+
+.menu ul {
+  display: flex;
+}
+
+ul,
+li {
+  display: block;
+}
+
+p {
+  font-family: "ProximaNovaRegular", sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  margin-right: 50px;
+}
+
+.btn {
+  align-self: center;
+  padding: 9 15;
+  background-color: #018abe;
+  border: #018abe;
+  color: #fff;
+  width: 155px;
+  height: 36px;
+  border-radius: 3px;
+}
+
+.btn p {
+  margin: 0;
+  font-family: "ProximaNovaRegular", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 140%;
+}
+
+.btn:hover {
+  background-color: #18abe3;
+  border-color: #18abe3;
+}
+
+/* ------------------------------------ */
+
+.first-screen {
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.topFS {
+  justify-content: center;
+  position: relative;
+  display: inline-block;
+  font-family: "ElMessiriBold";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+.health {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 136px;
+  left: 434px;
+}
+
+.topFS h4 {
+  margin: 0 66px 0 66px;
+}
+
+.first-screen h1 {
+  font-family: "ElMessiriBold";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 140%;
+  margin: 0;
+}
+
+.sec-text h1 {
+  position: absolute;
+  top: 210px;
+  left: 460px;
+}
+
+.fs h1 {
+  margin: 0;
+}
+
+/* ------------------------------- */
+
+.services {
+  margin-top: 120px;
+}
+
+.heading {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.heading h2 {
+  font-family: "ElMessiriBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  color: #fff;
+  margin: 0 45px 0 45px;
+}
+
+.grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  margin-top: 46px;
+}
+
+.first-grid-list {
+  position: relative;
+  display: inline-block;
+  padding-left: 0;
+  margin: 0;
+}
+
+.first-grid-list h4 {
+  position: absolute;
+  left: 50px;
+  bottom: 38px;
+  font-family: "ElMessiriBold";
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  padding: 3px 5px;
+}
+
+.second-grid-list {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  gap: 24px;
+  padding-left: 4px;
+}
+
+.second-grid-list li {
+  position: relative;
+  display: inline-block;
+  padding-left: 0;
+  margin: 0;
+}
+
+.second-grid-list li h4 {
+  position: absolute;
+  left: 40px;
+  bottom: 28px;
+  font-family: "ElMessiriBold";
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  padding: 3px 5px;
+  margin: 0;
+}
+
+.activePH {
+  margin-bottom: -13px;
+}
+
+/* -------------------------------- */
+
+.reviews {
+  margin-top: 120px;
+}
+
+.reviews-heading {
+  justify-content: center;
+  display: flex;
+}
+
+h2 {
+  font-family: "ElMessiriBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  color: #fff;
+  margin: 0 45px 0 45px;
+}
+
+.reviews-blocks {
+  align-items: center;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  gap: 50px;
+  margin-top: 46px;
+  padding: 0;
+  margin-left: -220px;
+}
+
+.block1 {
+  opacity: 0.4;
+}
+
+.block1:hover {
+  opacity: 1;
+}
+
+.block3 {
+  opacity: 0.4;
+}
+
+.block3:hover {
+  opacity: 1;
+}
+
+.reviews-blocks li {
+  position: relative;
+  display: inline-block;
+  padding-left: 0;
+  margin: 0;
+}
+
+.block2 h5 {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+  right: 60px;
+  color: #fff;
+  font-family: "Proxima Nova Light";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  margin: 0;
+}
+
+.block2 p {
+  position: absolute;
+  bottom: 50px;
+  left: 60px;
+  right: 60px;
+  color: #fff;
+  font-family: "Proxima Nova Thin";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  margin: 0;
+}
+
+.block1 h6 {
+  position: absolute;
+  top: 40px;
+  left: 45px;
+
+  color: #fff;
+  font-family: "Proxima Nova Light";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  margin: 0;
+}
+
+.block1 p,
+.block3 p {
+  position: absolute;
+  top: 78px;
+  left: 45px;
+  right: 45px;
+  color: #fff;
+  font-family: "Proxima Nova Thin";
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 140%;
+  margin: 0;
+}
+
+.block3 h6 {
+  position: absolute;
+  top: 40px;
+  left: 45px;
+  color: #fff;
+  font-family: "Proxima Nova Light";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  margin: 0;
+}
+
+.controls {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.con-blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+footer p {
+  margin-top: 40px;
+}
+
+/* -------------------------------- */
+
+.about {
+  margin-top: 120px;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+.about-heading {
+  justify-content: center;
+  display: flex;
+}
+
+.about-list {
+  margin-top: 46px;
+}
+
+.about-list1 {
+  display: flex;
+  align-items: center;
+}
+
+.about-list1-text {
+  margin-right: 84px;
+}
+
+.about-list1-text h4 {
+  font-family: "ProximaNovaRegular";
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  margin-top: 0;
+}
+
+.about-list1-text p {
+  color: #fff;
+  font-family: "Proxima Nova Thin";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  margin: 0;
+}
+
+.about-list2 {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.about-list2-text {
+  margin: 0;
+  margin-left: 84px;
+}
+
+.about-list2-text h4 {
+  font-family: "ProximaNovaRegular";
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.about-list2-text p {
+  color: #fff;
+  font-family: "Proxima Nova Thin";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  margin: 0;
+}
+
+/* -------------------------------- */
+
+.price {
+  margin-top: 120px;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+.price-heading {
+  justify-content: center;
+  display: flex;
+}
+
+.price-grid {
+  margin-top: 46px;
+  display: flex;
+
+  align-items: center;
+}
+
+.price-list {
+  margin-right: 159px;
+}
+
+.sale {
+  margin-right: 0em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: right;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+}
+
+ul li img {
+  margin-right: 20px;
+}
+
+li h3 {
+  width: 268px;
+  font-family: "ProximaNovaRegular";
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+li h4 {
+  font-family: "ElMessiriBold";
+  color: #fff;
+  margin-left: 23px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.photo-price h4 {
+  font-family: "ElMessiriBold";
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
+}
+
+/* -------------------------------- */
+
+.contacts {
+  margin-top: 120px;
+  display: flex;
+}
+
+.address {
+  display: block;
+  margin-left: 48px;
+}
+.address1 {
+  display: block;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin: 0;
+}
+
+.address ul li {
+  position: relative;
+}
+
+.address h4 {
+  position: absolute;
+  font-family: "ElMessiriBold";
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  left: 45px;
+  top: 35px;
+  margin: 0;
+}
+
+.in-text {
+  position: absolute;
+  left: 45px;
+  top: 89px;
+}
+
+.in-text img {
+  position: absolute;
+}
+
+.in-text li {
+  display: flex;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.in-text li p {
+  margin: 0;
+  margin-left: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+}
+
+.allbtn2 {
+  position: absolute;
+  left: 45px;
+  bottom: 35px;
+  margin: 0;
+}
+
+.btn2 {
+  position: relative;
+  background: #ffffff;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn2 p {
+  font-family: "ProximaNovaRegular";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 140%;
+  top: 11px;
+  left: 26px;
+  position: absolute;
+  color: #018abe;
+  margin: 0;
+}
+
+/* -------------------------------- */
+
+footer {
+  margin-top: 120px;
+  display: flex;
+}
+
+footer p {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.by {
+  margin-left: auto;
+}

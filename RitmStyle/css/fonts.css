@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("../fonts/ProximaNova-Regular.eot");
+  src: url("../fontsProximaNova-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ProximaNova-Regular.woff") format("woff"),
+    url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ElMessiriBold";
+  src: url("../fonts/ElMessiri-Bold.eot");
+  src: url("../fonts/ElMessiri-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ElMessiri-Bold.woff") format("woff"),
+    url("../fonts/ElMessiri-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Proxima Nova Light";
+  src: url("/fonts/ProximaNova-Light.eot");
+  src: url("/fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/ProximaNova-Light.woff") format("woff"),
+    url("/fonts/ProximaNova-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Thin";
+  src: url("/fonts/ProximaNovaT-Thin.eot");
+  src: url("/fonts/ProximaNovaT-Thin.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/ProximaNovaT-Thin.woff") format("woff"),
+    url("/fonts/ProximaNovaT-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
