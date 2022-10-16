@@ -581,3 +581,16 @@ footer p {
 .by {
   margin-left: auto;
 }
+
+.content p {
+  color: #fff;
+  font-family: "Proxima Nova Thin";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
