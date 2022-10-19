@@ -1,7 +1,6 @@
 const headers = document.querySelectorAll("[data-headers]");
-console.log(headers);
+
 const content = document.querySelectorAll("[data-content]");
-console.log(content);
 
 headers.forEach(function (item) {
   item.addEventListener("click", function (item) {
@@ -11,4 +10,18 @@ headers.forEach(function (item) {
 
     this.nextElementSibling.classList.toggle("hidden");
   });
+});
+
+/* ---------------------------------------- */
+
+const modalBlock = document.querySelector(".modal");
+const button = document.querySelector(".btn");
+const no = document.querySelector(".no");
+
+button.addEventListener("click", function () {
+  modalBlock.classList.remove("hidden");
+});
+
+no.addEventListener("click", function () {
+  modalBlock.classList.add("hidden");
 });

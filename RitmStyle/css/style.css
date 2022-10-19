@@ -594,3 +594,109 @@ footer p {
 .hidden {
   display: none;
 }
+
+.modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.11);
+}
+
+.window {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 865px;
+  height: 545px;
+  background-color: #018abe;
+  border-radius: 3px;
+}
+
+.card-content h2 {
+  font-family: "ElMessiriBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 140%;
+  color: #fff;
+  margin-top: 0px;
+}
+
+.card-content h4 {
+  font-family: "ElMessiriBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #fff;
+  margin: 0;
+  margin-top: 3px;
+}
+
+.text-iner2 {
+  margin-top: 14px;
+}
+
+.card-content img {
+  margin-top: 29px;
+  margin-left: auto;
+  margin-right: 29px;
+}
+
+.top-iner1 {
+  text-align: left;
+  margin-top: 27px;
+}
+
+.top-iner2 {
+  text-align: left;
+  margin-top: 27px;
+}
+
+.iner1 {
+  width: 720px;
+  height: 48px;
+  background-color: #fff;
+}
+
+.iner2 {
+  width: 720px;
+  height: 48px;
+  background-color: #fff;
+}
+
+.card-content button {
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #0b82af;
+  width: 128px;
+  height: 45px;
+  margin-left: auto;
+  margin-right: 74px;
+  margin-top: 40px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 3px;
+  border: none;
+}
+
+.no {
+  opacity: 0.5;
+}
+
+.no:hover {
+  opacity: 1;
+}
