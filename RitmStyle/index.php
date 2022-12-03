@@ -1,11 +1,17 @@
+<?php
+    session_start();
+    
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RitmStyle</title>
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
     <div class="container">
@@ -37,7 +43,7 @@
           </ul>
         </div>
         <button class="btn">
-          <p>Записаться на сеанс</p>
+          <p>Войти в личный кабинет</p>
         </button>
       </header>
       <div class="first-screen">
@@ -290,17 +296,23 @@
       <div class="window">
         <div class="card-content">
           <img src="/img/no.svg" alt="" class="no">
-          <h2>Записаться на сеанс:</h2>
-          <h4>Оставьте свой номер телефона, и мы подберем <br /> удобное время для записи!</h4>
-          <div class="top-iner1">
-          <h4>Ваше имя:</h4>
-          <div class="iner1"></div>
+          <h2>Войдите в аккаунт:</h2>
+          
+          <form action="/php/signin.php" method="post" class="inputs">
+            <div class="top-iner1">
+            <label for="">Укажите вашу почту</label>
+            <input type="email" name="email" placeholder="Укажите вашу почту">
           </div>
           <div class="top-iner2">
-          <h4 class="text-iner2">Ваш номер:</h4>
-          <div class="iner2"></div>
+            <label for="">Укажите ваш пароль</label>
+            <input type="password" name="password" placeholder="Укажите ваш пароль">
           </div>
-          <button>Записаться</button>
+          <p>
+            У вас нет аккаунта? => <a href="/register.php">Зарегистрируйтесь</a>!
+          </p>
+          <button type="submit" class="button-submit">Войти</button>
+          </form>
+          
         </div>
       </div>
     </div>

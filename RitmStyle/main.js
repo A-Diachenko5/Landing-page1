@@ -14,14 +14,10 @@ headers.forEach(function (item) {
 
 /* ---------------------------------------- */
 
-const modalBlock = document.querySelector(".modal");
 const button = document.querySelector(".btn");
-const no = document.querySelector(".no");
+
 
 button.addEventListener("click", function () {
-  modalBlock.classList.remove("hidden");
+  window.location.href = "/authorization.php"
 });
 
-no.addEventListener("click", function () {
-  modalBlock.classList.add("hidden");
-});

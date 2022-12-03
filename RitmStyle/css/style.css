@@ -643,6 +643,22 @@ footer p {
   margin-top: 3px;
 }
 
+.card-content input {
+  padding: 0 0 0 5px;
+  border: none;
+  border-bottom: #a3a3a3;
+  outline: none;
+  font-family: "ProximaNovaRegular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 300%;
+}
+
+.inputs {
+  width: 700px;
+}
+
 .text-iner2 {
   margin-top: 14px;
 }
@@ -653,14 +669,38 @@ footer p {
   margin-right: 29px;
 }
 
+label {
+  padding: 0 0 0 5px;
+  font-family: "ProximaNovaRegular", sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+}
+
+form a {
+  text-decoration: none;
+  color: #162831;
+  font-weight: bold;
+}
+
+form p {
+  margin: 15px 0;
+}
+
 .top-iner1 {
   text-align: left;
   margin-top: 27px;
+  display: flex;
+  flex-direction: column;
 }
 
 .top-iner2 {
   text-align: left;
   margin-top: 27px;
+  display: flex;
+  flex-direction: column;
 }
 
 .iner1 {
@@ -675,7 +715,7 @@ footer p {
   background-color: #fff;
 }
 
-.card-content button {
+.button-submit {
   font-family: "El Messiri";
   font-style: normal;
   font-weight: 700;
@@ -684,13 +724,13 @@ footer p {
   color: #0b82af;
   width: 128px;
   height: 45px;
-  margin-left: auto;
-  margin-right: 74px;
   margin-top: 40px;
   text-align: center;
   background-color: #fff;
   border-radius: 3px;
   border: none;
+  cursor: pointer;
+  width: 700px;
 }
 
 .no {

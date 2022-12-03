@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: #162831;
+}
+
+.container {
+max-width: 1296px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+h2 {
+    color: #fff;
+}
+
+input {
+    padding: 0 0 0 5px;
+    border: none;
+    border-bottom: #a3a3a3;
+    outline: none;
+    font-family: "ProximaNovaRegular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 300%;
+}
+
+.button-submit {
+font-family: "El Messiri";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 140%;
+color: #162831;
+width: 128px;
+height: 45px;
+margin-top: 40px;
+text-align: center;
+background-color: #fff;
+border-radius: 3px;
+border: none;
+width: 700px;
+cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 700px;
+}
+
+label {
+    margin-top: 10px;
+    padding: 0 0 0 5px;
+    font-family: "ProximaNovaRegular", sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+}
+
+form a {
+text-decoration: none;
+color: #162831;
+font-weight: bold;
+}
+
+form p {
+margin: 15px 0;
+}
+
+.problems {
+    color: #9c0101;
+    font-weight: bold;
+    text-align: center;
+    width: 700px;
+}
